@@ -1,0 +1,77 @@
+:root {
+    --linkcolor: rgb(37, 98, 160);
+    --formcolor: black;
+    --fontsize: 30px;
+}
+body {
+    background-image: url(https://design-milk.com/images/2018/10/brown-hotels-lighthouse-21.jpg) !important;
+    background-size: 100%;
+}
+#logo {
+    padding-right: 40% !important;
+}
+.myContainer {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+  }
+.myContainer article{
+  width: 30%;
+}
+  @media screen and (max-width:425px) {
+    .myContainer {
+        display: flex;
+        flex-direction: column;
+        /* width: 50%; */
+      }
+
+}
+@media screen and (max-width:768px) {
+    .myContainer {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+      }
+    }
+  .hotelslinks {
+    border: 10px solid blue;
+    padding: 15px;
+    font-size: var(--fontsize);
+    text-align: left;
+    color: black;
+    background-color: grey;
+    grid-gap: 5px;
+    transition: 2s;
+  }
+  .hotelslinks :hover {
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+    transform: scale(1.1);
+  }
+img {
+    height: 300px;
+    width: 400px;
+}
+a {
+    text-decoration: none;
+    color: var(--linkcolor);
+}
+.eventslist {
+  border: 10px solid red;
+  padding: 15px;
+  font-size: var(--fontsize);
+  text-align: left;
+  background-color: grey;
+  grid-gap: 5px;
+  }
+  .form {
+    border: 10px solid blue;
+    padding: 15px;
+    font-size: 22px;
+    text-align: start;
+    color: var(--formcolor);
+    background-color: grey;
+    grid-gap: 5px;
+    border: ridge;
+    box-sizing: border-box;
+    width: 300px
+  }

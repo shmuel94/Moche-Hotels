@@ -1,0 +1,65 @@
+body {
+    background-image: url(https://www.caesarpremier.com/Octopus/Upload/images/Categories/tiberias-hotel-on-the-shores-of-the-sea-of-galilee.jpg);
+    background-size: 100%;
+}
+#logo {
+    padding-right: 40% !important;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+  }
+@media screen and (min-width:425px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+      }
+
+}
+@media screen and (min-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    p {
+        color: black;
+    }
+.info {
+    background-color: grey;
+    border: ridge;
+    box-sizing: border-box;
+    width: 300px
+}
+.staff {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+  }
+  img {
+    height: 350px;
+    width: 400px;
+    border-radius: 50%;
+}
+h5{
+    color: black;
+}
+.form {
+    border: 10px solid blue;
+    padding: 15px;
+    font-size: 22px;
+    text-align: start;
+    color: var(--formcolor);
+    background-color: grey;
+    grid-gap: 5px;
+    border: ridge;
+    box-sizing: border-box;
+    width: 300px
+  }
+  h1 {
+    color: black;
+}
+h6 {
+    color: black;
+}
